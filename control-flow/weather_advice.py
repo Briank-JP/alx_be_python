@@ -1,5 +1,5 @@
 # create a variable to store the user input
-weather = input("What is the like today? (sunny/rainny/cold): ")
+weather = input("What's the like today? (sunny/rainny/cold):")
 if weather == "sunny":
     print("Wear a T-shirt and sunglasses")
 elif weather == "rainny":
