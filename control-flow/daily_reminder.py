@@ -16,6 +16,6 @@ match task_priority:
         print("invalid priority level")
 
 if time_bound == "yes":
-    print("Reminder: 'Finish project report' is a high priority task that requires immediate attention today!")
+    print(f"Finish '{task}' is a high priority task that requires immediate attention today.!")
 else:
-    print("'Read a book' is a low priority task. Consider completing it when you have free time.")
+    print(f"{task} is a low priority task, consider finishing it when you have free time.")
