@@ -3,7 +3,7 @@ size = int(input("Enter the size of the pattern: "))
 row = 0
 
 # loop through each row using a while loop
-while row < size:
+while row < size: #while this condition is true, the code will continue.
     
     # use a for loop to  print the astericks
     for i in range(size):
