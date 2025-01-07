@@ -9,7 +9,7 @@ def perform_operation(num1, num2, operation):
       else:
         return num1/num2
    elif operation == "multiply":
-      return num2 *num1
+      return num1 * num2
    else:
       return "Invalid operation"
 # perform_operation("num1, num2, operation")
