@@ -1,5 +1,5 @@
-def display_menue():
-    print("Shopping List")
+def display_menu():
+    print("Shopping List manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View items")
@@ -8,7 +8,7 @@ def display_menue():
 def main():
     shopping_list = []
     while True:
-        display_menue()
+        display_menu()
         choice = input("Enter your choice: ")
         if choice == "1":
             item  = input("Enter the item name: ")
