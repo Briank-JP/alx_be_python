@@ -10,4 +10,4 @@ def safe_divide(numerator, denominator) :
     except TypeError:
         return 'Error: Please provide two numbers.'
     else:
-        print(f"The result of the division is: {result}")
+        return f"The result of the division is: {result}"
